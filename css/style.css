@@ -1,1 +1,45 @@
+body{
+    margin:0;
+    font-family:Arial, sans-serif;
+    background:#ffffff;
+    color:#222;
+}
 
+header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 50px;
+    border-bottom:1px solid #eee;
+}
+
+nav a{
+    margin-left:20px;
+    text-decoration:none;
+    color:#222;
+    font-weight:500;
+}
+
+section{
+    padding:80px 50px;
+}
+
+h1{
+    font-size:48px;
+    margin-bottom:20px;
+}
+
+p{
+    max-width:600px;
+    line-height:1.8;
+}
+
+button{
+    margin-top:30px;
+    padding:14px 28px;
+    border:none;
+    background:#2563EB;
+    color:white;
+    border-radius:8px;
+    cursor:pointer;
+}
