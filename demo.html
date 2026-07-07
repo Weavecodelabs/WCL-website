@@ -1,0 +1,629 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <!-- Meta -->
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Page Title | WeaveCode Labs</title>
+
+    <meta name="description" content="">
+
+    <link rel="icon" href="images/favicon.ico">
+
+    <!-- Styles -->
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <!-- ==========================================
+         HEADER
+    =========================================== -->
+
+    <header>
+
+        <div class="container">
+
+            <nav>
+
+                <!-- Logo -->
+
+                <a href="index.html" class="logo">
+
+                    <img src="images/logos/wcl-logo.png"
+                         alt="WeaveCode Labs">
+
+                </a>
+
+                <!-- Navigation -->
+
+                <ul class="nav-links">
+
+                    <li>
+
+                        <a href="index.html">
+
+                            Home
+
+                        </a>
+
+                    </li>
+
+                    <li>
+
+                        <a href="prodbadge.html">
+
+                            ProdBadge
+
+                        </a>
+
+                    </li>
+
+                    <li>
+
+                        <a href="knowledge-centre.html">
+
+                            Knowledge Centre
+
+                        </a>
+
+                    </li>
+
+                    <li>
+
+                        <a href="about.html">
+
+                            About
+
+                        </a>
+
+                    </li>
+
+                    <li>
+
+                        <a href="contact.html">
+
+                            Contact
+
+                        </a>
+
+                    </li>
+
+                </ul>
+
+                <!-- Mobile Menu -->
+
+                <button class="menu-btn"
+                        aria-label="Open Menu">
+
+                    ☰
+
+                </button>
+
+            </nav>
+
+        </div>
+
+    </header>
+
+    <!-- ==========================================
+         MAIN CONTENT
+    =========================================== -->
+
+    <main>
+
+       <!-- ==========================================
+     DEMO FORM
+========================================== -->
+
+<section class="demo-form">
+
+    <div class="container">
+
+        <div class="section-header">
+
+            <span class="hero-badge">
+
+                Book a Demo
+
+            </span>
+
+            <h1 class="section-title">
+
+                Schedule a Personalised ProdBadge Demo
+
+            </h1>
+
+            <p class="section-description">
+
+                Tell us a little about your business and we'll schedule a
+                personalised walkthrough of ProdBadge at a time that works for
+                you.
+
+            </p>
+
+        </div>
+
+        <div class="form-wrapper">
+            <!-- Disable Captcha -->
+
+<input
+    type="hidden"
+    name="_captcha"
+    value="false">
+
+<!-- Email Subject -->
+
+<input
+    type="hidden"
+    name="_subject"
+    value="New ProdBadge Demo Request">
+
+<!-- Success Page -->
+
+<input
+    type="hidden"
+    name="_next"
+    value="https://weavecodelabs.com/thank-you.html">
+
+<!-- Disable Template -->
+
+<input
+    type="hidden"
+    name="_template"
+    value="table">
+
+            <form action="https://formsubmit.co/connect@prodbadge.com" method="POST">
+
+                <!-- Name -->
+
+                <div class="form-group">
+
+                    <label for="name">
+
+                        Full Name *
+
+                    </label>
+
+                    <input
+                        type="text"
+                        id="name"
+                        name="name"
+                        required>
+
+                </div>
+
+                <div class="form-group">
+
+                    
+
+                    <input
+    type="text"
+    name="_honey"
+    style="display:none">
+
+                </div>
+
+                <!-- Company -->
+
+                <div class="form-group">
+
+                    <label for="company">
+
+                        Company / Organization *
+
+                    </label>
+
+                    <input
+                        type="text"
+                        id="company"
+                        name="company"
+                        required>
+
+                </div>
+
+                <!-- Designation -->
+
+                <div class="form-group">
+
+                    <label for="designation">
+
+                        Designation *
+
+                    </label>
+
+                    <input
+                        type="text"
+                        id="designation"
+                        name="designation"
+                        required>
+
+                </div>
+
+                <!-- Email -->
+
+                <div class="form-group">
+
+                    <label for="email">
+
+                        Business Email *
+
+                    </label>
+
+                    <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        required>
+
+                </div>
+
+                <!-- Phone -->
+
+                <div class="form-group">
+
+                    <label for="phone">
+
+                        Phone Number *
+
+                    </label>
+
+                    <input
+                        type="tel"
+                        id="phone"
+                        name="phone"
+                        required>
+
+                </div>
+
+                <!-- Country -->
+
+                <div class="form-group">
+
+                    <label for="country">
+
+                        Country *
+
+                    </label>
+
+                    <input
+                        type="text"
+                        id="country"
+                        name="country"
+                        required>
+
+                </div>
+
+                <!-- Preferred Time -->
+
+                <div class="form-group">
+
+                    <label for="time">
+
+                        Preferred Time of Day
+
+                    </label>
+
+                    <select
+                        id="time"
+                        name="time">
+
+                        <option value="">
+                            Select
+                        </option>
+
+                        <option>
+                            Morning (9 AM – 12 PM)
+                        </option>
+
+                        <option>
+                            Afternoon (12 PM – 4 PM)
+                        </option>
+
+                        <option>
+                            Evening (4 PM – 7 PM)
+                        </option>
+
+                    </select>
+
+                </div>
+
+                <!-- Contact Method -->
+
+                <div class="form-group">
+
+                    <label for="contact">
+
+                        Preferred Contact Method
+
+                    </label>
+
+                    <select
+                        id="contact"
+                        name="contact">
+
+                        <option value="">
+                            Select
+                        </option>
+
+                        <option>
+                            Google Meet
+                        </option>
+
+                        <option>
+                            Zoom
+                        </option>
+
+                        <option>
+                            Phone Call
+                        </option>
+
+                        <option>
+                            WhatsApp
+                        </option>
+
+                    </select>
+
+                </div>
+
+                <!-- Message -->
+
+                <div class="form-group">
+
+                    <label for="message">
+
+                        Tell us about your requirements
+
+                    </label>
+
+                    <textarea
+                        id="message"
+                        name="message"
+                        rows="6"
+                        placeholder="Briefly describe your business, products or requirements..."></textarea>
+
+                </div>
+
+                <button
+                    type="submit"
+                    class="btn btn-primary">
+
+                    Book My Demo
+
+                </button>
+
+            </form>
+
+        </div>
+
+    </div>
+
+</section>
+
+    </main>
+
+    <!-- ==========================================
+         FOOTER
+    =========================================== -->
+
+    <footer>
+
+        <div class="container">
+
+            <div class="footer-grid">
+
+                <!-- Company -->
+
+                <div>
+
+
+                    <p>
+
+                        Building India's Fashion Ecosystem through
+                        technology, sustainability and innovation.
+
+                    </p>
+
+                </div>
+
+                <!-- Company -->
+
+                <div>
+
+                    <h4>
+
+                        Company
+
+                    </h4>
+
+                    <ul>
+
+                        <li>
+
+                            <a href="index.html">
+
+                                Home
+
+                            </a>
+
+                        </li>
+
+                        <li>
+
+                            <a href="about.html">
+
+                                About
+
+                            </a>
+
+                        </li>
+
+                        <li>
+
+                            <a href="contact.html">
+
+                                Contact
+
+                            </a>
+
+                        </li>
+
+                    </ul>
+
+                </div>
+
+                <!-- Product -->
+
+                <div>
+
+                    <h4>
+
+                        Product
+
+                    </h4>
+
+                    <ul>
+
+                        <li>
+
+                            <a href="prodbadge.html">
+
+                                ProdBadge
+
+                            </a>
+
+                        </li>
+
+                        <li>
+
+                            <a href="demo.html">
+
+                                Book a Demo
+
+                            </a>
+
+                        </li>
+
+                    </ul>
+
+                </div>
+
+                <!-- Resources -->
+
+                <div>
+
+                    <h4>
+
+                        Resources
+
+                    </h4>
+
+                    <ul>
+
+                        <li>
+
+                            <a href="knowledge-centre.html">
+
+                                Knowledge Centre
+
+                            </a>
+
+                        </li>
+
+                    </ul>
+
+                </div>
+
+                <!-- Legal -->
+
+                <div>
+
+                    <h4>
+
+                        Legal
+
+                    </h4>
+
+                    <ul>
+
+                        <li>
+
+                            <a href="privacy.html">
+
+                                Privacy Policy
+
+                            </a>
+
+                        </li>
+
+                        <li>
+
+                            <a href="terms.html">
+
+                                Terms & Conditions
+
+                            </a>
+
+                        </li>
+
+                        <li>
+
+                            <a href="cookie-policy.html">
+
+                                Cookie Policy
+
+                            </a>
+
+                        </li>
+
+                    </ul>
+
+                </div>
+
+            </div>
+
+            <div class="footer-bottom">
+
+                <p>
+
+                    © 2026 WeaveCode Labs India Pvt. Ltd.
+                    All Rights Reserved.
+
+                </p>
+
+                <div class="footer-social">
+
+                    <a href="#">
+
+                        LinkedIn
+
+                    </a>
+
+                    <a href="#">
+
+                        Instagram
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+    <!-- Script -->
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
