@@ -243,6 +243,30 @@ nav{
     cursor:pointer;
 }
 /* ==========================================
+   CLICKABLE ARTICLE CARDS
+========================================== */
+
+.card{
+
+    display:block;
+    color:inherit;
+
+}
+
+.card strong{
+
+    display:inline-block;
+    margin-top:20px;
+    color:var(--primary);
+
+}
+
+.card:hover strong{
+
+    text-decoration:underline;
+
+}
+/* ==========================================
    MOBILE NAVIGATION
 ========================================== */
 
@@ -381,6 +405,86 @@ input:focus,
 textarea:focus,
 select:focus{
     border-color:var(--primary);
+}
+/* ==========================================
+   ARTICLE
+========================================== */
+
+.card{
+
+    max-width:900px;
+    margin:auto;
+
+}
+
+.card hr{
+
+    border:none;
+    border-top:1px solid var(--border);
+    margin:50px 0;
+
+}
+
+.card h2{
+
+    margin-top:40px;
+    margin-bottom:20px;
+
+}
+
+.card h3{
+
+    margin-top:30px;
+    margin-bottom:15px;
+
+}
+
+.card p{
+
+    margin-bottom:20px;
+    text-align:justify;
+
+}
+
+.card ul{
+
+    margin:20px 0 20px 24px;
+
+}
+
+.card li{
+
+    margin-bottom:14px;
+    color:var(--text);
+
+}
+/* ==========================================
+   ARTICLE INFO
+========================================== */
+
+.article-info{
+
+    margin-bottom:80px;
+
+}
+
+.article-info .card{
+
+    padding:30px;
+
+}
+
+.article-info h3{
+
+    font-size:16px;
+    margin-bottom:8px;
+
+}
+
+.article-info p{
+
+    margin:0;
+
 }
 
 /* ==========================================
@@ -576,5 +680,40 @@ footer{
         text-align:center;
         gap:16px;
     }
+
+}
+/* ==========================================
+   LEGAL PAGES
+========================================== */
+
+.card h2{
+
+    margin-top:40px;
+    margin-bottom:16px;
+
+}
+
+.card h2:first-child{
+
+    margin-top:0;
+
+}
+
+.card p{
+
+    margin-bottom:18px;
+
+}
+
+.card ul{
+
+    margin:20px 0 20px 24px;
+
+}
+
+.card ul li{
+
+    margin-bottom:10px;
+    color:var(--text);
 
 }
